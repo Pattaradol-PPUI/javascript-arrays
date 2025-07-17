@@ -48,8 +48,10 @@ let productQuantityOfJoannet = orders[3].productQuantity;
 let totalPurchaseOfDary = orders[1].productPrice*orders[1].productQuantity;
 
 orders.shift();
+orders[2].creditCardType = "Visa";
 console.log(isArray);
 console.log(creditCardTypeOfBlindermann);
+console.log(orders[2].creditCardType)
 console.log(productQuantityOfJoannet);
 console.log(totalPurchaseOfDary);
 
