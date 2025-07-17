@@ -6,5 +6,5 @@ const student = {
 
 console.log("Student Name: " + student.name); //add "u"
 console.log("Student Age: " + student.age);
-console.log("Student Grade: " + student.gade);
+console.log("Student Grade: " + student.grade);
 console.log("Student Subjects: " + student.subjects);
